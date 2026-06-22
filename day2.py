@@ -21,12 +21,14 @@ result = is_senior(age)
 print("Your age is " + str(age) + ". " + result)
 
 #3. Function with directory
-def describe_person(person)
+def describe_person(person):
    print ("Name: " + person["name"])
    print ("City: " + person["city"])
 
 vikram = {
-   "name" : "Vikram"
-   "city" : "Chennai"
+   "name" : "Vikram",
+   "city" : "Chennai",
    "role" : "Engineer"
 }
+
+describe_person(vikram)
