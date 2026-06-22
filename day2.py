@@ -32,3 +32,14 @@ vikram = {
 }
 
 describe_person(vikram)
+
+#4. Loop through a list of dictionaries
+employees = [
+    {"name": "Alice", "age": 30, "city": "New York"},
+    {"name": "Bob", "age": 25, "city": "Los Angeles"},
+    {"name": "Charlie", "age": 35, "city": "Chicago"}
+    ]
+
+for employee in employees:
+    print("Name: " + employee["name"] + ", Age: " + str(employee["age"]) + ", City: " + employee["city"])
+
